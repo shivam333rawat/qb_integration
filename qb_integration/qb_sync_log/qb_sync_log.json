@@ -1,0 +1,14 @@
+{
+  "doctype": "DocType",
+  "name": "QB Sync Log",
+  "module": "QB Integration",
+  "custom": 1,
+  "fields": [
+    {"fieldname": "reference_type", "fieldtype": "Data", "label": "Reference Type"},
+    {"fieldname": "reference_name", "fieldtype": "Data", "label": "Reference Name"},
+    {"fieldname": "qb_id", "fieldtype": "Data", "label": "QB ID"},
+    {"fieldname": "status", "fieldtype": "Select", "options": "Success\nFailed", "label": "Status"},
+    {"fieldname": "message", "fieldtype": "Small Text", "label": "Message"}
+  ],
+  "permissions": [{"role": "System Manager", "read": 1, "write": 1, "create": 1}]
+}

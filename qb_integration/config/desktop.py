@@ -1,0 +1,7 @@
+app_name = "qb_integration"
+app_title = "QB Integration"
+app_icon = "octicon octicon-globe"
+app_color = "blue"
+app_email = "you@example.com"
+app_description = "Integration with QueueBuster POS"
+app_license = "MIT"
